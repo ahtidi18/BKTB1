@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Mono&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgb(177, 173, 173);
+}
+
+header img{
+    width: 100%;
+}
+
+nav{
+    background-color: white;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav>.nav_menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+nav>.nav_menu>li{
+    margin: 15px;
+}
+
+nav>.nav_menu>li :hover{
+    color:white;
+    background-color:gray;
+    border-radius: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+}
+
+aside{
+    width:95%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+aside  .title_section{ 
+    font-size: 24px;
+    position:relative;
+    margin:80px 0px;
+}
+
+
+aside .title_section hr {
+    background-color:  rgb(199, 83, 15);
+    height: 5px;
+    border: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+aside .title_section .title{
+    width: 250px;
+    height:30px;
+    margin: px auto;
+    padding: 15px;
+    background-color: rgb(199, 83, 15);
+    border-radius: 30px;
+    color: white;
+
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.product{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-evenly;
+}
+.product_card{
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    padding: 20px 5px;
+
+    border: 3px rgb(199, 83, 15) solid;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product_card img{
+    width: 50%;
+    height: 175px;
+    object-fit: cover;
+    float:left;
+}
+
+.product_card .card_title{
+    padding: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.p_sale{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    
+    position: absolute;
+    top: 0;
+    right:0;    
+}
+
+.cafe_list{
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid red;;
+    background-size: contain;
+    position: relative;
+}
+
+.cafe_list img{
+    width: 100%;
+}
+.cafe_list li{
+   color: white;
+}
+
+
+footer{
+    min-height: 200px;
+    background-color: rgb(92, 84, 84);
+    padding: 30px 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact_us{
+    width: 30%;
+}
+
+footer .feedback{
+    width: 40%;
+    padding: 10px;
+    
+    position: relative;
+}
+
+footer .feedback textarea{
+    width: 100%;
+    height: 100%;
+    outline: unset;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+footer .feedback button{
+    position: absolute;
+    right: 4px;
+    bottom: 15px;
+    border: none;
+    background-color: unset;
+}
+footer  span{
+    display: block;
+    margin: 20px;
+    color: white;
+}
+
+footer h1{
+    color: rgb(7, 0, 0);
+    font-size: 32px;
+}
+
+footer h1 i{
+    padding-left: 5px;
+    font-size: 24px;
+}
+footer span a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+footer  .copyright{
+    font-size: 18px;
+    color: black;    
+}
+
+footer .contact_us .copyright i{
+    margin-right: 5px;
+}
